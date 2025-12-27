@@ -1,0 +1,1131 @@
+{
+  "paymentStats": [
+    {
+      "month": "JAN/23",
+      "rejected": 22,
+      "completed": 43,
+      "awaiting": 44
+    },
+    {
+      "month": "FEB/23",
+      "rejected": 10,
+      "completed": 55,
+      "awaiting": 54
+    },
+    {
+      "month": "MAR/23",
+      "rejected": 21,
+      "completed": 40,
+      "awaiting": 41
+    },
+    {
+      "month": "APR/23",
+      "rejected": 26,
+      "completed": 67,
+      "awaiting": 65
+    },
+    {
+      "month": "MAY/23",
+      "rejected": 12,
+      "completed": 22,
+      "awaiting": 21
+    },
+    {
+      "month": "JUN/23",
+      "rejected": 22,
+      "completed": 43,
+      "awaiting": 43
+    },
+    {
+      "month": "JUL/23",
+      "rejected": 19,
+      "completed": 52,
+      "awaiting": 50
+    },
+    {
+      "month": "AUG/23",
+      "rejected": 24,
+      "completed": 48,
+      "awaiting": 47
+    },
+    {
+      "month": "SEP/23",
+      "rejected": 27,
+      "completed": 56,
+      "awaiting": 55
+    },
+    {
+      "month": "OCT/23",
+      "rejected": 21,
+      "completed": 29,
+      "awaiting": 27
+    },
+    {
+      "month": "NOV/23",
+      "rejected": 30,
+      "completed": 43,
+      "awaiting": 42
+    },
+    {
+      "month": "DEC/23",
+      "rejected": 20,
+      "completed": 56,
+      "awaiting": 55
+    }
+  ],
+  "latestLeads": [
+    {
+      "id": 1,
+      "user": {
+        "name": "Archie Cantones",
+        "email": "arcie.tones@gmail.com",
+        "avatar": "/avatars/user-1.jpg",
+        "initials": "A"
+      },
+      "proposal": "Sent",
+      "date": "2023-06-11T10:53:00",
+      "status": "Completed",
+      "statusType": "success"
+    },
+    {
+      "id": 2,
+      "user": {
+        "name": "Holmes Cherryman",
+        "email": "golms.chan@gmail.com",
+        "avatar": "",
+        "initials": "H"
+      },
+      "proposal": "New",
+      "date": "2023-06-11T10:53:00",
+      "status": "In Progress",
+      "statusType": "info"
+    },
+    {
+      "id": 3,
+      "user": {
+        "name": "Melanie Hanvey",
+        "email": "lanie.nveyn@gmail.com",
+        "avatar": "/avatars/user-2.jpg",
+        "initials": "M"
+      },
+      "proposal": "Sent",
+      "date": "2023-06-11T10:53:00",
+      "status": "Completed",
+      "statusType": "success"
+    },
+    {
+      "id": 4,
+      "user": {
+        "name": "Kenneth Hune",
+        "email": "nneth.une@gmail.com",
+        "avatar": "",
+        "initials": "K"
+      },
+      "proposal": "Returning",
+      "date": "2023-06-11T10:53:00",
+      "status": "Not Interested",
+      "statusType": "warning"
+    },
+    {
+      "id": 5,
+      "user": {
+        "name": "Valentine Maton",
+        "email": "alenine.aton@gmail.com",
+        "avatar": "/avatars/user-3.jpg",
+        "initials": "V"
+      },
+      "proposal": "Sent",
+      "date": "2023-06-11T10:53:00",
+      "status": "Completed",
+      "statusType": "success"
+    }
+  ],
+  "contactLeads": [
+    {
+      "id": 1,
+      "user": {
+        "name": "Archie Cantones",
+        "email": "arcie.tones@gmail.com",
+        "avatar": "/avatars/user1.jpg",
+        "initials": "AC"
+      },
+      "company": "THEMEOCEAN",
+      "amount": "$250 USD",
+      "status": "Completed",
+      "statusType": "success",
+      "stage": 78
+    },
+    {
+      "id": 2,
+      "user": {
+        "name": "Holmes Cherryman",
+        "email": "golms.chan@gmail.com",
+        "avatar": "/avatars/user2.jpg",
+        "initials": "HC"
+      },
+      "company": "THEMEOCEAN",
+      "amount": "$500 USD",
+      "status": "In Progress",
+      "statusType": "info",
+      "stage": 70
+    },
+    {
+      "id": 3,
+      "user": {
+        "name": "Malanie Hanvey",
+        "email": "lanie.nveyn@gmail.com",
+        "avatar": "/avatars/user3.jpg",
+        "initials": "MH"
+      },
+      "company": "THEMEOCEAN",
+      "amount": "$300 USD",
+      "status": "Completed",
+      "statusType": "success",
+      "stage": 78
+    },
+    {
+      "id": 4,
+      "user": {
+        "name": "Kenneth Hune",
+        "email": "nneth.une@gmail.com",
+        "avatar": "/avatars/user4.jpg",
+        "initials": "KH"
+      },
+      "company": "THEMEOCEAN",
+      "amount": "$200 USD",
+      "status": "Not Interested",
+      "statusType": "warning",
+      "stage": 70
+    },
+    {
+      "id": 5,
+      "user": {
+        "name": "Valentine Maton",
+        "email": "alenine.aton@gmail.com",
+        "avatar": "/avatars/user5.jpg",
+        "initials": "VM"
+      },
+      "company": "THEMEOCEAN",
+      "amount": "$450 USD",
+      "status": "Completed",
+      "statusType": "success",
+      "stage": 78
+    }
+  ],
+  "salesReport": {
+    "stats": [
+      {
+        "title": "Active Deals",
+        "value": "$5,658 USD",
+        "change": "+23.65%",
+        "positive": true,
+        "last": "$4,563 USD"
+      },
+      {
+        "title": "Revenue Deals",
+        "value": "$76,852 USD",
+        "change": "-06.32%",
+        "positive": false,
+        "last": "$85,748 USD"
+      },
+      {
+        "title": "Deals Created",
+        "value": "$2,354 USD",
+        "change": "+30.47%",
+        "positive": true,
+        "last": "$1,578 USD"
+      },
+      {
+        "title": "Deals Closing",
+        "value": "$40,847 USD",
+        "change": "-08.55%",
+        "positive": false,
+        "last": "$52,468 USD"
+      }
+    ],
+    "pipeline": [
+      {
+        "label": "Leads",
+        "value": "$74,569",
+        "deals": 57
+      },
+      {
+        "label": "Proposal",
+        "value": "$35,285",
+        "deals": 46
+      },
+      {
+        "label": "Contract",
+        "value": "$24,569",
+        "deals": 34
+      },
+      {
+        "label": "Project",
+        "value": "$53,853",
+        "deals": 42
+      }
+    ],
+    "forecast": 63,
+    "leads": [
+      {
+        "name": "Archie Cantones",
+        "email": "arcie.tones@gmail.com",
+        "company": "THEMEOCEAN",
+        "amount": "$250 USD",
+        "status": "Completed",
+        "statusType": "success",
+        "stage": 78
+      },
+      {
+        "name": "Holmes Cherryman",
+        "email": "golms.chan@gmail.com",
+        "company": "THEMEOCEAN",
+        "amount": "$500 USD",
+        "status": "In Progress",
+        "statusType": "info",
+        "stage": 70
+      }
+    ]
+  },
+  "salesPipelineChart": [
+    {
+      "month": "JAN/23",
+      "rejected": 20,
+      "completed": 25
+    },
+    {
+      "month": "FEB/23",
+      "rejected": 30,
+      "completed": 28
+    },
+    {
+      "month": "MAR/23",
+      "rejected": 40,
+      "completed": 38
+    },
+    {
+      "month": "APR/23",
+      "rejected": 50,
+      "completed": 45
+    },
+    {
+      "month": "MAY/23",
+      "rejected": 45,
+      "completed": 42
+    },
+    {
+      "month": "JUN/23",
+      "rejected": 42,
+      "completed": 40
+    },
+    {
+      "month": "JUL/23",
+      "rejected": 38,
+      "completed": 36
+    },
+    {
+      "month": "AUG/23",
+      "rejected": 34,
+      "completed": 32
+    },
+    {
+      "month": "SEP/23",
+      "rejected": 30,
+      "completed": 28
+    },
+    {
+      "month": "OCT/23",
+      "rejected": 28,
+      "completed": 26
+    },
+    {
+      "month": "NOV/23",
+      "rejected": 26,
+      "completed": 24
+    },
+    {
+      "month": "DEC/23",
+      "rejected": 25,
+      "completed": 23
+    }
+  ],
+  "projectReport": {
+    "stats": [
+      {
+        "title": "Total Projects",
+        "value": "128",
+        "change": "+8%",
+        "positive": true
+      },
+      {
+        "title": "In Progress",
+        "value": "54",
+        "change": "+5%",
+        "positive": true
+      },
+      {
+        "title": "Completed",
+        "value": "76",
+        "change": "+2%",
+        "positive": true
+      },
+      {
+        "title": "Overdue",
+        "value": "12",
+        "change": "-3%",
+        "positive": false
+      }
+    ],
+    "pipelineChart": [
+      {
+        "month": "JAN/23",
+        "rejected": 15,
+        "completed": 25
+      },
+      {
+        "month": "FEB/23",
+        "rejected": 18,
+        "completed": 28
+      },
+      {
+        "month": "MAR/23",
+        "rejected": 22,
+        "completed": 35
+      },
+      {
+        "month": "APR/23",
+        "rejected": 20,
+        "completed": 32
+      }
+    ],
+    "projects": [
+      {
+        "name": "Website Redesign",
+        "manager": "Alice Johnson",
+        "deadline": "2025-01-30",
+        "progress": 80,
+        "status": "In Progress"
+      },
+      {
+        "name": "Mobile App Launch",
+        "manager": "Bob Smith",
+        "deadline": "2025-03-15",
+        "progress": 60,
+        "status": "In Progress"
+      },
+      {
+        "name": "Landing Page",
+        "manager": "Carol Lee",
+        "deadline": "2024-12-10",
+        "progress": 100,
+        "status": "Completed"
+      }
+    ],
+    "chart": [
+      {
+        "day": "Saturday",
+        "tasks": 20,
+        "completed": 30,
+        "upcoming": 45
+      },
+      {
+        "day": "Sunday",
+        "tasks": 45,
+        "completed": 25,
+        "upcoming": 20
+      },
+      {
+        "day": "Monday",
+        "tasks": 35,
+        "completed": 40,
+        "upcoming": 30
+      },
+      {
+        "day": "Tuesday",
+        "tasks": 60,
+        "completed": 35,
+        "upcoming": 25
+      },
+      {
+        "day": "Wednesday",
+        "tasks": 30,
+        "completed": 50,
+        "upcoming": 65
+      },
+      {
+        "day": "Thursday",
+        "tasks": 65,
+        "completed": 40,
+        "upcoming": 30
+      },
+      {
+        "day": "Friday",
+        "tasks": 35,
+        "completed": 60,
+        "upcoming": 75
+      }
+    ],
+    "projectsDetails": [
+      {
+        "name": "Apps Safety",
+        "manager": "Valentine Maton",
+        "budget": "$2,550 USD",
+        "stage": [
+          "bg-green-500",
+          "bg-green-500",
+          "bg-green-500",
+          "bg-yellow-400",
+          "bg-gray-300"
+        ],
+        "status": "In Progress",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+      },
+      {
+        "name": "Github Update",
+        "manager": "Kenneth Hune",
+        "budget": "$1,200 USD",
+        "stage": [
+          "bg-green-500",
+          "bg-green-500",
+          "bg-green-500",
+          "bg-yellow-400",
+          "bg-gray-300"
+        ],
+        "status": "On Hold",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+      },
+      {
+        "name": "Dropbox Customization",
+        "manager": "Malanie Hanvey",
+        "budget": "$3,300 USD",
+        "stage": [
+          "bg-green-500",
+          "bg-green-500",
+          "bg-green-500",
+          "bg-green-500",
+          "bg-green-500"
+        ],
+        "status": "Completed",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/7/75/Dropbox_icon.svg"
+      },
+      {
+        "name": "Facebook Marketing",
+        "manager": "Archie Cantones",
+        "budget": "$2,000 USD",
+        "stage": [
+          "bg-green-500",
+          "bg-green-500",
+          "bg-green-500",
+          "bg-yellow-400",
+          "bg-gray-300"
+        ],
+        "status": "In Progress",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png"
+      },
+      {
+        "name": "Figma Dashboard",
+        "manager": "Valentine Maton",
+        "budget": "$2,000 USD",
+        "stage": [
+          "bg-green-500",
+          "bg-green-500",
+          "bg-green-500",
+          "bg-yellow-400",
+          "bg-gray-300"
+        ],
+        "status": "Upcoming",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+      }
+    ],
+    "paymentStatsProjects": [
+      {
+        "day": "SAT",
+        "billableHours": 480,
+        "unbillableHours": 45,
+        "totalHours": 525,
+        "billableLabel": "8H:00M",
+        "unbillableLabel": "0H:45M"
+      },
+      {
+        "day": "SUN",
+        "billableHours": 360,
+        "unbillableHours": 60,
+        "totalHours": 420,
+        "billableLabel": "6H:00M",
+        "unbillableLabel": "1H:00M"
+      },
+      {
+        "day": "MON",
+        "billableHours": 540,
+        "unbillableHours": 30,
+        "totalHours": 570,
+        "billableLabel": "9H:00M",
+        "unbillableLabel": "0H:30M"
+      },
+      {
+        "day": "THU",
+        "billableHours": 400,
+        "unbillableHours": 85,
+        "totalHours": 485,
+        "billableLabel": "6H:40M",
+        "unbillableLabel": "1H:25M"
+      },
+      {
+        "day": "WEN",
+        "billableHours": 455,
+        "unbillableHours": 95,
+        "totalHours": 550,
+        "billableLabel": "7H:35M",
+        "unbillableLabel": "1H:35M"
+      },
+      {
+        "day": "THU",
+        "billableHours": 395,
+        "unbillableHours": 65,
+        "totalHours": 460,
+        "billableLabel": "6H:35M",
+        "unbillableLabel": "1H:05M"
+      },
+      {
+        "day": "FRI",
+        "billableHours": 420,
+        "unbillableHours": 40,
+        "totalHours": 460,
+        "billableLabel": "7H:00M",
+        "unbillableLabel": "0H:40M"
+      }
+    ],
+    "summary": {
+      "totalBillableHours": 3050,
+      "totalUnbillableHours": 420,
+      "totalHoursSpent": 3470,
+      "billableHoursLabel": "66H:35M",
+      "unbillableHoursLabel": "06H:25M",
+      "productivityPercentage": 87.9
+    },
+    "teamProgress": [
+      {
+        "id": 1,
+        "name": "Alexandra Della",
+        "role": "Frontend Developer",
+        "progress": 40,
+        "avatar": "/avatars/alexandra.jpg",
+        "initials": "AD"
+      },
+      {
+        "id": 2,
+        "name": "Archie Cantones",
+        "role": "UI/UX Designer",
+        "progress": 65,
+        "avatar": "/avatars/archie.jpg",
+        "initials": "AC"
+      },
+      {
+        "id": 3,
+        "name": "Malanie Hanvey",
+        "role": "Backend Developer",
+        "progress": 50,
+        "avatar": "/avatars/malanie.jpg",
+        "initials": "MH"
+      },
+      {
+        "id": 4,
+        "name": "Kenneth Hune",
+        "role": "Digital Marketer",
+        "progress": 75,
+        "avatar": "/avatars/kenneth.jpg",
+        "initials": "KH"
+      }
+    ],
+    "activeProjects": [
+      {
+        "id": 1,
+        "name": "Apps Safety",
+        "description": "Applications",
+        "progress": 54,
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+        "color": "bg-blue-500"
+      },
+      {
+        "id": 2,
+        "name": "Dashboard Kit",
+        "description": "App UI Kit",
+        "progress": 100,
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+        "color": "bg-green-500"
+      },
+      {
+        "id": 3,
+        "name": "Facebook Marketing",
+        "description": "Marketing",
+        "progress": 90,
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png",
+        "color": "bg-blue-600"
+      },
+      {
+        "id": 4,
+        "name": "React Dashboard",
+        "description": "Dashboard",
+        "progress": 37,
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+        "color": "bg-cyan-500"
+      },
+      {
+        "id": 5,
+        "name": "Paypal Payment",
+        "description": "Payment",
+        "progress": 29,
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg",
+        "color": "bg-blue-700"
+      }
+    ],
+    "upcomingProjects": [
+      {
+        "id": 1,
+        "name": "Figma Dashboard",
+        "manager": "Valentine Maton",
+        "deadline": "2025-02-15",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+      },
+      {
+        "id": 2,
+        "name": "Slack Integration",
+        "manager": "Alexandra Della",
+        "deadline": "2025-03-01",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg"
+      },
+      {
+        "id": 3,
+        "name": "Zoom Analytics",
+        "manager": "Kenneth Hune",
+        "deadline": "2025-02-28",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Zoom_Communications_Logo.svg"
+      }
+    ]
+  }
+  ,
+  "customer": {
+    "id": "CUST001",
+    "name": "Alexandra Della",
+    "surname": "Della",
+    "email": "alex.della@outlook.com",
+    "phone": "+01 (375) 2589 645",
+    "location": "California, USA",
+    "company": "Theme Ocean",
+    "role": "Frontend Developer",
+    "joinDate": "2023-01-15",
+    "bio": "John Doe is a frontend developer with over 5 years of experience creating high-quality, user-friendly websites and web applications. He has a strong understanding of web development technologies and a keen eye for design.\n\nJohn is proficient in languages such as HTML, CSS, and JavaScript, and is experienced in using popular frontend frameworks such as React and Angular. He is also well-versed in user experience design and uses his knowledge to create engaging and intuitive user interfaces.\n\nThroughout his career, John has worked on a wide range of projects for clients in various industries, including e-commerce, healthcare, and education. He takes a collaborative approach to development and enjoys working closely with clients and other developers to bring their ideas to life.",
+    "followers": "28.65K",
+    "following": "38.85K",
+    "engagement": "43.67K",
+    "stats": {
+      "totalProjects": 128,
+      "inProgress": 54,
+      "completed": 76,
+      "overdue": 12
+    },
+    
+    "billing": {
+      "currentPlan": {
+        "name": "Team Plan",
+        "price": "$29.99 / Month",
+        "nextPayment": "12/10/2023",
+        "nextPaymentAmount": "$62.48",
+        "daysRemaining": 4,
+        "billingCycle": "Billed Monthly",
+        "isCurrent": true
+      },
+      
+      "plans": [
+        {
+          "id": "basic",
+          "name": "BASIC",
+          "description": "Starter plan for individuals.",
+          "details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque quisquam temporibus non iure facere earum commodi rerum maiores necessitatibus mollitia.",
+          "price": "$12.99 / Month",
+          "features": ["1 User", "5 Projects", "10GB Storage", "Basic Support"],
+          "popular": false
+        },
+        {
+          "id": "team",
+          "name": "TEAM",
+          "description": "Collaborate up to 10 people.",
+          "details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque quisquam temporibus non iure facere earum commodi rerum maiores necessitatibus mollitia.",
+          "price": "$29.99 / Month",
+          "features": ["10 Users", "50 Projects", "100GB Storage", "Priority Support", "Advanced Analytics"],
+          "popular": true,
+          "isCurrent": true
+        },
+        {
+          "id": "enterprise",
+          "name": "ENTERPRISE",
+          "description": "For bigger businesses.",
+          "details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque quisquam temporibus non iure facere earum commodi rerum maiores necessitatibus mollitia.",
+          "price": "$49.99 / Month",
+          "features": ["Unlimited Users", "Unlimited Projects", "500GB Storage", "24/7 Support", "Advanced Analytics", "Custom Solutions"],
+          "popular": false
+        }
+      ],
+      
+      "paymentMethods": [
+        {
+          "id": 1,
+          "cardHolder": "Alexandra Della",
+          "cardNumber": "5155 **** **** 3456",
+          "expiry": "12/25",
+          "type": "Visa",
+          "isDefault": true
+        },
+        {
+          "id": 2,
+          "cardHolder": "Alexandra Della",
+          "cardNumber": "3437 **** **** 7890",
+          "expiry": "08/24",
+          "type": "American Express",
+          "isDefault": false
+        },
+        {
+          "id": 3,
+          "cardHolder": "Alexandra Della",
+          "cardNumber": "4236 **** **** 1234",
+          "expiry": "05/26",
+          "type": "Visa",
+          "isDefault": false
+        },
+        {
+          "id": 4,
+          "cardHolder": "Alexandra Della",
+          "cardNumber": "6011 **** **** 5678",
+          "expiry": "11/23",
+          "type": "Discover",
+          "isDefault": false
+        }
+      ],
+      
+      "billingHistory": [
+        {
+          "id": "#258963",
+          "date": "02 NOV, 2022",
+          "amount": "$350",
+          "status": "Completed"
+        },
+        {
+          "id": "#087456",
+          "date": "05 DEC, 2022",
+          "amount": "$500",
+          "status": "Deadline"
+        },
+        {
+          "id": "#154789",
+          "date": "15 JAN, 2023",
+          "amount": "$29.99",
+          "status": "Completed"
+        },
+        {
+          "id": "#324567",
+          "date": "01 FEB, 2023",
+          "amount": "$29.99",
+          "status": "Completed"
+        }
+      ],
+      
+      "paymentHistory": [
+        {
+          "id": "INV001",
+          "date": "2023-11-01",
+          "amount": "$29.99",
+          "status": "Paid",
+          "description": "Monthly Subscription"
+        },
+        {
+          "id": "INV002",
+          "date": "2023-10-01",
+          "amount": "$29.99",
+          "status": "Paid",
+          "description": "Monthly Subscription"
+        },
+        {
+          "id": "INV003",
+          "date": "2023-09-01",
+          "amount": "$29.99",
+          "status": "Paid",
+          "description": "Monthly Subscription"
+        }
+      ]
+    },
+    
+    "activity": [
+      {
+        "id": 1,
+        "action": "Updated profile information",
+        "time": "2 hours ago",
+        "type": "profile"
+      },
+      {
+        "id": 2,
+        "action": "Added new payment method",
+        "time": "1 day ago",
+        "type": "billing"
+      },
+      {
+        "id": 3,
+        "action": "Completed project milestone",
+        "time": "3 days ago",
+        "type": "project"
+      },
+      {
+        "id": 4,
+        "action": "Started new project",
+        "time": "1 week ago",
+        "type": "project"
+      }
+    ],
+    
+    "projects": [
+      {
+        "id": 1,
+        "name": "Apps Safety",
+        "description": "Applications",
+        "progress": 54,
+        "status": "In Progress",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+      },
+      {
+        "id": 2,
+        "name": "Dashboard Kit",
+        "description": "App UI Kit",
+        "progress": 100,
+        "status": "Completed",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+      },
+      {
+        "id": 3,
+        "name": "Facebook Marketing",
+        "description": "Marketing",
+        "progress": 90,
+        "status": "In Progress",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png"
+      }
+    ],
+    "ActivtyHistory": [
+      {
+        "id": 1,
+        "browser": "Chrome on Window",
+        "ip": "192.149.122.128",
+        "time": "11:34 PM",
+        "action": "success",
+        "date": "2023-12-01"
+      },
+      {
+        "id": 2,
+        "browser": "Mozilla on Window",
+        "ip": "186.188.154.225",
+        "time": "Nov 20, 2023 10:34 PM",
+        "action": "failed",
+        "date": "2023-11-20"
+      },
+      {
+        "id": 3,
+        "browser": "Chrome on iMac",
+        "ip": "192.149.122.128",
+        "time": "Oct 23, 2023 04:16 PM",
+        "action": "failed",
+        "date": "2023-10-23"
+      },
+      {
+        "id": 4,
+        "browser": "Mozilla on Window",
+        "ip": "186.188.154.225",
+        "time": "Nov 20, 2023 10:34 PM",
+        "action": "failed",
+        "date": "2023-11-20"
+      },
+      {
+        "id": 5,
+        "browser": "Chrome on Window",
+        "ip": "192.149.122.128",
+        "time": "Oct 23, 2023 04:16 PM",
+        "action": "failed",
+        "date": "2023-10-23"
+      },
+      {
+        "id": 6,
+        "browser": "Chrome on iMac",
+        "ip": "192.149.122.128",
+        "time": "Oct 15, 2023 11:41 PM",
+        "action": "failed",
+        "date": "2023-10-15"
+      },
+      {
+        "id": 7,
+        "browser": "Mozilla on Window",
+        "ip": "186.188.154.225",
+        "time": "Oct 13, 2023 05:43 AM",
+        "action": "failed",
+        "date": "2023-10-13"
+      },
+      {
+        "id": 8,
+        "browser": "Chrome on iMac",
+        "ip": "192.149.122.128",
+        "time": "Oct 03, 2023 04:12 AM",
+        "action": "failed",
+        "date": "2023-10-03"
+      }
+    ],
+    "notificationPreferences": [
+      {
+        "id": 1,
+        "title": "Successful payments",
+        "description": "Receive a notification for every successful payment.",
+        "channels": ["email"],
+        "enabled": true
+      },
+      {
+        "id": 2,
+        "title": "Customer payment dispute",
+        "description": "Receive a notification if a payment is disputed by a customer and for dispute purposes.",
+        "channels": ["push"],
+        "enabled": true
+      },
+      {
+        "id": 3,
+        "title": "Refund alerts",
+        "description": "Receive a notification if a payment is stated as risk by the Finance Department.",
+        "channels": ["repeat"],
+        "enabled": false
+      },
+      {
+        "id": 4,
+        "title": "Successful payments",
+        "description": "Receive a notification for every successful payment.",
+        "channels": ["sms", "email"],
+        "enabled": true
+      },
+      {
+        "id": 5,
+        "title": "Invoice payments",
+        "description": "Receive a notification if a customer sends an incorrect amount to pay their invoice.",
+        "channels": ["deactivate"],
+        "enabled": false
+      },
+      {
+        "id": 6,
+        "title": "Rating reminders",
+        "description": "Send an email reminding me to rate an item a week after purchase",
+        "channels": ["sms", "push", "email"],
+        "enabled": true
+      }
+    ],
+    "developmentConnections": [
+      {
+        "id": 1,
+        "name": "Google Drive",
+        "description": "Cloud Storage & File Sharing",
+        "details": "Google's powerful search capabilities are embedded in Drive and offer speed, reliability, and collaboration. And features like Drive search chips help your team...",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg",
+        "status": "connected",
+        "lastSynced": "2023-12-15T10:30:00"
+      },
+      {
+        "id": 2,
+        "name": "Dropbox",
+        "description": "Cloud Storage & File Sharing",
+        "details": "Dropbox brings everything—traditional files, cloud content, and web shortcuts—together in one place... Save and access your files from any device, and share...",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Dropbox_icon.svg",
+        "status": "connected",
+        "lastSynced": "2023-12-14T14:20:00"
+      },
+      {
+        "id": 3,
+        "name": "GitHub",
+        "description": "Where the world builds software",
+        "details": "GitHub is where over 83 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories,...",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+        "status": "connected",
+        "lastSynced": "2023-12-15T09:15:00"
+      },
+      {
+        "id": 4,
+        "name": "GitLab",
+        "description": "The One DevOps Platform",
+        "details": "GitLab helps you automate the builds, integration, and verification of your code. With SAST, DAST, code quality analysis, plus pipelines that enable...",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/1/15/GitLab_logo.svg",
+        "status": "disconnected",
+        "lastSynced": "2023-12-10T16:45:00"
+      },
+      {
+        "id": 5,
+        "name": "Shopify",
+        "description": "Ecommerce Developers Platform",
+        "details": "Build custom commerce experiences with Shopify's powerful APIs and tools for developers.",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Shopify_logo_2018.svg",
+        "status": "pending",
+        "lastSynced": null
+      }
+    ],
+    "socialConnections": [
+      {
+        "id": 1,
+        "name": "Facebook",
+        "description": "The World Most Popular Social Network",
+        "details": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png",
+        "status": "connected",
+        "lastActivity": "2023-12-15T14:30:00",
+        "followers": "2.5K",
+        "following": "1.8K",
+        "posts": 245
+      },
+      {
+        "id": 2,
+        "name": "Instagram",
+        "description": "Edit & Share photos, Videos & Messages",
+        "details": "Create an account or log in to Instagram - A simple, fun & creative way to capture, edit & share photos, videos & messages with friends & family.",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
+        "status": "connected",
+        "lastActivity": "2023-12-14T11:20:00",
+        "followers": "3.2K",
+        "following": "450",
+        "posts": 189
+      },
+      {
+        "id": 3,
+        "name": "Twitter",
+        "description": "It's what's happening / Twitter",
+        "details": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg",
+        "status": "connected",
+        "lastActivity": "2023-12-13T09:45:00",
+        "followers": "5.7K",
+        "following": "2.3K",
+        "posts": 1.2
+      },
+      {
+        "id": 4,
+        "name": "Spotify",
+        "description": "Web Player: Music for everyone",
+        "details": "Spotify is a digital music service that gives you access to millions of songs.",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+        "status": "connected",
+        "lastActivity": "2023-12-15T16:15:00",
+        "followers": "850",
+        "following": "120",
+        "posts": 45
+      },
+      {
+        "id": 5,
+        "name": "YouTube",
+        "description": "The World Largest Video Sharing Platform",
+        "details": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg",
+        "status": "connected",
+        "lastActivity": "2023-12-12T19:30:00",
+        "followers": "15.2K",
+        "following": "230",
+        "posts": 78
+      }
+    ]
+  }
+  
+}
