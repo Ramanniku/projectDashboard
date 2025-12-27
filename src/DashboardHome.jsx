@@ -4,7 +4,7 @@
     import ChartCard from "./ChartCard";
     import ActivityCard from "./ActivityCard";
     import PaymentChart from "./PaymentChart";
-    import data from "./Store/data.json";
+    import data from "./Store/Data.json";
     import DashboardFooter from "./Utility/Footer";
     import Table from "./Utility/Table";
 
