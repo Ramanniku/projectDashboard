@@ -12,7 +12,7 @@ import Table from "../Utility/Table";
 
 function ProjectReport() {
   const user = useSelector((state) => state.auth.user);
-  const { stats, pipelineChart,teamProgress,activeProjects, projects, projectsDetails, paymentStatsProjects } =
+  const { stats,teamProgress,activeProjects,   projectsDetails, paymentStatsProjects } =
     data.projectReport;
   const isSidebarExpanded = useSelector((state) => state.ui.isSidebarExpanded);
 
