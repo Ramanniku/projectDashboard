@@ -4,7 +4,6 @@ import Header from "./Utility/Header";
 import Navbar from "./Utility/Navbar";
 // import backgroundImage from "./assets/bgImage/bg-13.png";
 import { useSelector, useDispatch } from "react-redux";
-import Login from "./Pages/Login";
 import { setUser } from "./Features/authSlice";
 import DashboardHome from "./DashboardHome";
 
@@ -25,18 +24,7 @@ function App() {
       setShowLoginPage(true);
     }
   }, [dispatch]);
-
-  if (showLoginPage) {
-    return (
-      <Login
-        onLogin={(user) => {
-          localStorage.setItem("user", JSON.stringify(user));
-          dispatch(setUser(user));
-          setShowLoginPage(false);
-        }}
-      />
-    );
-  }
+ 
 
   return (
     <div
