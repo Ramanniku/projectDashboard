@@ -8,7 +8,7 @@ import {
   Tooltip,
   CartesianGrid
 } from "recharts";
-import data from "../Store/data.json";
+import data from "../Store/Data.json";
 
 function ProjectReportChart() {
   const chartData = data.projectReport.chart;

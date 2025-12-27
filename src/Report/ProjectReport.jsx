@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 
-import data from "../Store/data.json";
+import data from "../Store/Data.json";
 import Navbar from "../Utility/Navbar";
 import Header from "../Utility/Header";
 import PaymentChart from "../PaymentChart";
