@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { setUser } from "./Features/authSlice";
-import loginData from "./store/LoginData.json";
+import loginData from "./Store/LoginData.json";
 import { motion } from "framer-motion";
 import bgwallpaper from "./assets/1322308.jpeg";
 
