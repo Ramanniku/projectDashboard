@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState , useRef} from "react";
 import { useSelector } from "react-redux";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell } from "@fortawesome/free-solid-svg-icons";
@@ -15,6 +15,18 @@ const setTheme = (theme) => {
   localStorage.setItem("theme", theme);
   setShowThemeMenu(false);
 };
+const menuRef = useRef(null);
+
+useEffect(() => {
+  const handleClickOutside = (event) => {
+    if (menuRef.current && !menuRef.current.contains(event.target)) {
+      setShowMenu(false);
+    }
+  };
+
+  document.addEventListener("mousedown", handleClickOutside);
+  return () => document.removeEventListener("mousedown", handleClickOutside);
+}, []);
 
 useEffect(() => {
   const savedTheme = localStorage.getItem("theme") || "white";
@@ -55,7 +67,7 @@ useEffect(() => {
     onClick={() => setShowThemeMenu(!showThemeMenu)}
     className="px-3 py-1 rounded-lg border border-gray-300 glass-effect flex items-center gap-2 hover:shadow-md"
   >
-    🎨 <span className="text-sm">Theme</span>
+     <span className="text-sm">Theme</span>
   </button>
 
   {/* Dropdown */}
@@ -90,19 +102,18 @@ useEffect(() => {
 
 
         {/* Account */}
-        <div
-          className="relative"
-          onMouseEnter={() => setShowMenu(true)}
-          onMouseLeave={() => setShowMenu(false)}
-        >
-          <img
-            src={logo}
-            alt="user"
-            className="w-9 h-9 rounded-full cursor-pointer"
-          />
+    {/* Account */}
+<div className="relative" ref={menuRef}>
+  <img
+    src={logo}
+    alt="user"
+    className="w-9 h-9 rounded-full cursor-pointer"
+    onClick={() => setShowMenu((prev) => !prev)}
+  />
 
-          {showMenu && <AccountMenu user={user} onLogout={logout} />}
-        </div>
+  {showMenu && <AccountMenu user={user} onLogout={logout} />}
+</div>
+
       </div>
     </header>
   );

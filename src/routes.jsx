@@ -10,6 +10,8 @@ import LeadCreate from './Leads/LeadCreate'
 import ProjectView from './project/ProjectView'
 import ProjectCreate from './project/ProjectCreate'
 import Setting from './Setting/Setting'
+import Notes from './application/Notes'
+import Storage from './application/Storage'
 
 export default function AppRoutes() {
   return (
@@ -24,6 +26,8 @@ export default function AppRoutes() {
       <Route path="/ProjectView" element={<ProjectView/>} />
       <Route path="/ProjectCreate" element={<ProjectCreate/>} />
       <Route path="/Setting" element={<Setting/>} />
+      <Route path="/applicationNotes" element={<Notes/>} />
+      <Route path="/applicationStorage" element={<Storage/>} />
     
     </Routes>
   )

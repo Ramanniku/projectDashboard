@@ -119,25 +119,95 @@ function SalesReport() {
             ))}
           </div>
 
-          {/* ===== PIPELINE + FORECAST ===== */}
-        <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
+          {/* ===== PIPELINE + REVENUE FORECAST ===== */}
+          <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 mb-6">
+            {/* SALES PIPELINE - Takes 2/3 width */}
+            <div className="xl:col-span-2">
+              <PaymentChart
+                title="Sales Pipeline"
+                data={data.salesPipelineChart}
+              />
+            </div>
 
-  {/* SALES PIPELINE */}
-  <div className="xl:col-span-2">
-    <PaymentChart
-      title="Sales Pipeline"
-      data={data.salesPipelineChart}
-    />
-  </div>
+            {/* REVENUE FORECAST SECTION - Takes 1/3 width */}
+            <div className="bg-white rounded-xl p-6 shadow">
+              {/* Title */}
+              <h3 className="text-lg font-semibold text-center mb-6">
+                Revenue Forecast
+              </h3>
+              
+              {/* Percentage Circle */}
+              <div className="relative w-32 h-32 mx-auto mb-6">
+                {/* Background circle */}
+                <div className="absolute inset-0 rounded-full bg-gray-100"></div>
+                
+                {/* Progress arc */}
+                <div 
+                  className="absolute inset-0 rounded-full border-8 border-blue-500"
+                  style={{
+                    clipPath: "inset(0 0 0 50%)",
+                    transform: "rotate(135deg)", // 63% of 360 = ~227 degrees, starting from top
+                  }}
+                ></div>
+                
+                {/* Percentage text */}
+                <div className="absolute inset-0 flex flex-col items-center justify-center">
+                  <span className="text-3xl font-bold">63%</span>
+                  <span className="text-sm text-gray-500">Achieved</span>
+                </div>
+              </div>
 
-  {/* REVENUE FORECAST (right side stays same) */}
-  <div className="bg-white rounded-xl p-6 shadow text-center">
-    ...
-  </div>
-</div>
+              {/* Goal Items */}
+              <div className="space-y-4">
+                {/* Marketing Goal */}
+                <div>
+                  <div className="flex justify-between items-center mb-1">
+                    <span className="text-sm text-gray-600">Marketing Goal</span>
+                    <span className="text-sm font-medium">$550/$1250 USD</span>
+                  </div>
+                  <div className="w-full bg-gray-200 rounded-full h-2">
+                    <div 
+                      className="bg-green-500 h-2 rounded-full"
+                      style={{ width: `${(550/1250)*100}%` }}
+                    ></div>
+                  </div>
+                </div>
 
+                {/* Tennis Goal */}
+                <div>
+                  <div className="flex justify-between items-center mb-1">
+                    <span className="text-sm text-gray-600">Tennis Goal</span>
+                    <span className="text-sm font-medium">$850/$950 USD</span>
+                  </div>
+                  <div className="w-full bg-gray-200 rounded-full h-2">
+                    <div 
+                      className="bg-blue-500 h-2 rounded-full"
+                      style={{ width: `${(850/950)*100}%` }}
+                    ></div>
+                  </div>
+                </div>
 
-    
+                {/* Revenue Goal */}
+                <div>
+                  <div className="flex justify-between items-center mb-1">
+                    <span className="text-sm text-gray-600">Revenue Goal</span>
+                    <span className="text-sm font-medium">$5,655/$12,500 USD</span>
+                  </div>
+                  <div className="w-full bg-gray-200 rounded-full h-2">
+                    <div 
+                      className="bg-purple-500 h-2 rounded-full"
+                      style={{ width: `${(5655/12500)*100}%` }}
+                    ></div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Generate Report Button */}
+              <button className="w-full mt-6 py-3 bg-blue-800 text-white rounded-lg font-medium hover:bg-gray-800 transition-colors">
+                GENERATE REPORT
+              </button>
+            </div>
+          </div>
 
           <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
             {/* LEFT SIDE */}

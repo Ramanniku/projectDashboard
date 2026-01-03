@@ -1,7 +1,5 @@
 [
-  { "username": "jhony", "password": "jhony123", "role": "Admin" },
-  { "username": "prashant", "password": "prashant123", "role": ["Manager", "User"] },
-  { "username": "sidhant", "password": "sidhant123", "role": ["Manager", "User"] },
-  { "username": "raman", "password": "raman123", "role": "User" },
-  {"username": "divyesh", "password": "Dtupe123", "role": "Manager"}
+
+  { "username": "raman", "password": "raman123"},
+  {"username": "admin", "password": "admin123"}
 ]

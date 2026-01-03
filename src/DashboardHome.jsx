@@ -78,9 +78,9 @@
     ];
 
     return (
-        <div className="space-y-6 h-full">
+        <div className="space-y-6 h-full bg-gray-50">
         {/* ===== TOP STATS ===== */}
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 mr">
             <StatCard title="Total Goals" value="128" change="+12%" />
             <StatCard title="Completed" value="76" change="+8%" />
             <StatCard title="Pending" value="34" change="-4%" />
@@ -158,11 +158,13 @@
 
             
             {/* ===== LATEST LEADS TABLE ===== */}
-            <Table
-            data={data.latestLeads}
-            columns={leadColumns}
-            actions={leadActions}
-            />
+           <div className="xl:col-span-2">
+    <Table
+      data={data.latestLeads}
+      columns={leadColumns}
+      actions={leadActions}
+    />
+  </div>
         </div>
         <DashboardFooter />
         </div>

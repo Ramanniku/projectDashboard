@@ -704,7 +704,8 @@
     ]
   }
   ,
-  "customer": {
+  "customers": [
+  {
     "id": "CUST001",
     "name": "Alexandra Della",
     "surname": "Della",
@@ -714,7 +715,7 @@
     "company": "Theme Ocean",
     "role": "Frontend Developer",
     "joinDate": "2023-01-15",
-    "bio": "John Doe is a frontend developer with over 5 years of experience creating high-quality, user-friendly websites and web applications. He has a strong understanding of web development technologies and a keen eye for design.\n\nJohn is proficient in languages such as HTML, CSS, and JavaScript, and is experienced in using popular frontend frameworks such as React and Angular. He is also well-versed in user experience design and uses his knowledge to create engaging and intuitive user interfaces.\n\nThroughout his career, John has worked on a wide range of projects for clients in various industries, including e-commerce, healthcare, and education. He takes a collaborative approach to development and enjoys working closely with clients and other developers to bring their ideas to life.",
+    "bio": "John Doe is a frontend developer with over 5 years of experience creating high-quality, user-friendly websites and web applications...",
     "followers": "28.65K",
     "following": "38.85K",
     "engagement": "43.67K",
@@ -724,7 +725,6 @@
       "completed": 76,
       "overdue": 12
     },
-    
     "billing": {
       "currentPlan": {
         "name": "Team Plan",
@@ -735,38 +735,17 @@
         "billingCycle": "Billed Monthly",
         "isCurrent": true
       },
-      
       "plans": [
         {
           "id": "basic",
           "name": "BASIC",
           "description": "Starter plan for individuals.",
-          "details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque quisquam temporibus non iure facere earum commodi rerum maiores necessitatibus mollitia.",
+          "details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit...",
           "price": "$12.99 / Month",
           "features": ["1 User", "5 Projects", "10GB Storage", "Basic Support"],
           "popular": false
-        },
-        {
-          "id": "team",
-          "name": "TEAM",
-          "description": "Collaborate up to 10 people.",
-          "details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque quisquam temporibus non iure facere earum commodi rerum maiores necessitatibus mollitia.",
-          "price": "$29.99 / Month",
-          "features": ["10 Users", "50 Projects", "100GB Storage", "Priority Support", "Advanced Analytics"],
-          "popular": true,
-          "isCurrent": true
-        },
-        {
-          "id": "enterprise",
-          "name": "ENTERPRISE",
-          "description": "For bigger businesses.",
-          "details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque quisquam temporibus non iure facere earum commodi rerum maiores necessitatibus mollitia.",
-          "price": "$49.99 / Month",
-          "features": ["Unlimited Users", "Unlimited Projects", "500GB Storage", "24/7 Support", "Advanced Analytics", "Custom Solutions"],
-          "popular": false
         }
       ],
-      
       "paymentMethods": [
         {
           "id": 1,
@@ -775,112 +754,25 @@
           "expiry": "12/25",
           "type": "Visa",
           "isDefault": true
-        },
-        {
-          "id": 2,
-          "cardHolder": "Alexandra Della",
-          "cardNumber": "3437 **** **** 7890",
-          "expiry": "08/24",
-          "type": "American Express",
-          "isDefault": false
-        },
-        {
-          "id": 3,
-          "cardHolder": "Alexandra Della",
-          "cardNumber": "4236 **** **** 1234",
-          "expiry": "05/26",
-          "type": "Visa",
-          "isDefault": false
-        },
-        {
-          "id": 4,
-          "cardHolder": "Alexandra Della",
-          "cardNumber": "6011 **** **** 5678",
-          "expiry": "11/23",
-          "type": "Discover",
-          "isDefault": false
         }
       ],
-      
       "billingHistory": [
         {
           "id": "#258963",
           "date": "02 NOV, 2022",
           "amount": "$350",
           "status": "Completed"
-        },
-        {
-          "id": "#087456",
-          "date": "05 DEC, 2022",
-          "amount": "$500",
-          "status": "Deadline"
-        },
-        {
-          "id": "#154789",
-          "date": "15 JAN, 2023",
-          "amount": "$29.99",
-          "status": "Completed"
-        },
-        {
-          "id": "#324567",
-          "date": "01 FEB, 2023",
-          "amount": "$29.99",
-          "status": "Completed"
-        }
-      ],
-      
-      "paymentHistory": [
-        {
-          "id": "INV001",
-          "date": "2023-11-01",
-          "amount": "$29.99",
-          "status": "Paid",
-          "description": "Monthly Subscription"
-        },
-        {
-          "id": "INV002",
-          "date": "2023-10-01",
-          "amount": "$29.99",
-          "status": "Paid",
-          "description": "Monthly Subscription"
-        },
-        {
-          "id": "INV003",
-          "date": "2023-09-01",
-          "amount": "$29.99",
-          "status": "Paid",
-          "description": "Monthly Subscription"
         }
       ]
     },
-    
     "activity": [
       {
         "id": 1,
         "action": "Updated profile information",
         "time": "2 hours ago",
         "type": "profile"
-      },
-      {
-        "id": 2,
-        "action": "Added new payment method",
-        "time": "1 day ago",
-        "type": "billing"
-      },
-      {
-        "id": 3,
-        "action": "Completed project milestone",
-        "time": "3 days ago",
-        "type": "project"
-      },
-      {
-        "id": 4,
-        "action": "Started new project",
-        "time": "1 week ago",
-        "type": "project"
       }
     ],
-    
     "projects": [
       {
         "id": 1,
@@ -889,22 +781,6 @@
         "progress": 54,
         "status": "In Progress",
         "icon": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
-      },
-      {
-        "id": 2,
-        "name": "Dashboard Kit",
-        "description": "App UI Kit",
-        "progress": 100,
-        "status": "Completed",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
-      },
-      {
-        "id": 3,
-        "name": "Facebook Marketing",
-        "description": "Marketing",
-        "progress": 90,
-        "status": "In Progress",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png"
       }
     ],
     "ActivtyHistory": [
@@ -915,106 +791,6 @@
         "time": "11:34 PM",
         "action": "success",
         "date": "2023-12-01"
-      },
-      {
-        "id": 2,
-        "browser": "Mozilla on Window",
-        "ip": "186.188.154.225",
-        "time": "Nov 20, 2023 10:34 PM",
-        "action": "failed",
-        "date": "2023-11-20"
-      },
-      {
-        "id": 3,
-        "browser": "Chrome on iMac",
-        "ip": "192.149.122.128",
-        "time": "Oct 23, 2023 04:16 PM",
-        "action": "failed",
-        "date": "2023-10-23"
-      },
-      {
-        "id": 4,
-        "browser": "Mozilla on Window",
-        "ip": "186.188.154.225",
-        "time": "Nov 20, 2023 10:34 PM",
-        "action": "failed",
-        "date": "2023-11-20"
-      },
-      {
-        "id": 5,
-        "browser": "Chrome on Window",
-        "ip": "192.149.122.128",
-        "time": "Oct 23, 2023 04:16 PM",
-        "action": "failed",
-        "date": "2023-10-23"
-      },
-      {
-        "id": 6,
-        "browser": "Chrome on iMac",
-        "ip": "192.149.122.128",
-        "time": "Oct 15, 2023 11:41 PM",
-        "action": "failed",
-        "date": "2023-10-15"
-      },
-      {
-        "id": 7,
-        "browser": "Mozilla on Window",
-        "ip": "186.188.154.225",
-        "time": "Oct 13, 2023 05:43 AM",
-        "action": "failed",
-        "date": "2023-10-13"
-      },
-      {
-        "id": 8,
-        "browser": "Chrome on iMac",
-        "ip": "192.149.122.128",
-        "time": "Oct 03, 2023 04:12 AM",
-        "action": "failed",
-        "date": "2023-10-03"
-      }
-    ],
-    "notificationPreferences": [
-      {
-        "id": 1,
-        "title": "Successful payments",
-        "description": "Receive a notification for every successful payment.",
-        "channels": ["email"],
-        "enabled": true
-      },
-      {
-        "id": 2,
-        "title": "Customer payment dispute",
-        "description": "Receive a notification if a payment is disputed by a customer and for dispute purposes.",
-        "channels": ["push"],
-        "enabled": true
-      },
-      {
-        "id": 3,
-        "title": "Refund alerts",
-        "description": "Receive a notification if a payment is stated as risk by the Finance Department.",
-        "channels": ["repeat"],
-        "enabled": false
-      },
-      {
-        "id": 4,
-        "title": "Successful payments",
-        "description": "Receive a notification for every successful payment.",
-        "channels": ["sms", "email"],
-        "enabled": true
-      },
-      {
-        "id": 5,
-        "title": "Invoice payments",
-        "description": "Receive a notification if a customer sends an incorrect amount to pay their invoice.",
-        "channels": ["deactivate"],
-        "enabled": false
-      },
-      {
-        "id": 6,
-        "title": "Rating reminders",
-        "description": "Send an email reminding me to rate an item a week after purchase",
-        "channels": ["sms", "push", "email"],
-        "enabled": true
       }
     ],
     "developmentConnections": [
@@ -1022,46 +798,10 @@
         "id": 1,
         "name": "Google Drive",
         "description": "Cloud Storage & File Sharing",
-        "details": "Google's powerful search capabilities are embedded in Drive and offer speed, reliability, and collaboration. And features like Drive search chips help your team...",
+        "details": "Google's powerful search capabilities...",
         "icon": "https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg",
         "status": "connected",
         "lastSynced": "2023-12-15T10:30:00"
-      },
-      {
-        "id": 2,
-        "name": "Dropbox",
-        "description": "Cloud Storage & File Sharing",
-        "details": "Dropbox brings everything—traditional files, cloud content, and web shortcuts—together in one place... Save and access your files from any device, and share...",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Dropbox_icon.svg",
-        "status": "connected",
-        "lastSynced": "2023-12-14T14:20:00"
-      },
-      {
-        "id": 3,
-        "name": "GitHub",
-        "description": "Where the world builds software",
-        "details": "GitHub is where over 83 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories,...",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
-        "status": "connected",
-        "lastSynced": "2023-12-15T09:15:00"
-      },
-      {
-        "id": 4,
-        "name": "GitLab",
-        "description": "The One DevOps Platform",
-        "details": "GitLab helps you automate the builds, integration, and verification of your code. With SAST, DAST, code quality analysis, plus pipelines that enable...",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/1/15/GitLab_logo.svg",
-        "status": "disconnected",
-        "lastSynced": "2023-12-10T16:45:00"
-      },
-      {
-        "id": 5,
-        "name": "Shopify",
-        "description": "Ecommerce Developers Platform",
-        "details": "Build custom commerce experiences with Shopify's powerful APIs and tools for developers.",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Shopify_logo_2018.svg",
-        "status": "pending",
-        "lastSynced": null
       }
     ],
     "socialConnections": [
@@ -1069,61 +809,566 @@
         "id": 1,
         "name": "Facebook",
         "description": "The World Most Popular Social Network",
-        "details": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+        "details": "Create an account or log into Facebook...",
         "icon": "https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png",
         "status": "connected",
         "lastActivity": "2023-12-15T14:30:00",
         "followers": "2.5K",
         "following": "1.8K",
         "posts": 245
+      }
+    ]
+  },
+  {
+    "id": "CUST002",
+    "name": "Archie Cantones",
+    "surname": "Cantones",
+    "email": "archie.cantones@gmail.com",
+    "phone": "+01 (123) 4567 890",
+    "location": "New York, USA",
+    "company": "Design Corp",
+    "role": "UI/UX Designer",
+    "joinDate": "2023-03-20",
+    "bio": "Archie is a creative UI/UX designer with 4 years of experience designing intuitive user interfaces for web and mobile applications.",
+    "followers": "15.2K",
+    "following": "12.8K",
+    "engagement": "28.4K",
+    "stats": {
+      "totalProjects": 89,
+      "inProgress": 32,
+      "completed": 57,
+      "overdue": 5
+    },
+    "billing": {
+      "currentPlan": {
+        "name": "Pro Plan",
+        "price": "$49.99 / Month",
+        "nextPayment": "01/15/2024",
+        "nextPaymentAmount": "$49.99",
+        "daysRemaining": 15,
+        "billingCycle": "Billed Monthly",
+        "isCurrent": true
+      },
+      "plans": [
+        {
+          "id": "pro",
+          "name": "PRO",
+          "description": "Advanced plan for professionals.",
+          "details": "Designed for professionals who need advanced features...",
+          "price": "$49.99 / Month",
+          "features": ["5 Users", "100 Projects", "200GB Storage", "Priority Support"],
+          "popular": true,
+          "isCurrent": true
+        }
+      ],
+      "paymentMethods": [
+        {
+          "id": 1,
+          "cardHolder": "Archie Cantones",
+          "cardNumber": "4236 **** **** 5678",
+          "expiry": "08/25",
+          "type": "Mastercard",
+          "isDefault": true
+        }
+      ],
+      "billingHistory": [
+        {
+          "id": "#789123",
+          "date": "15 DEC, 2023",
+          "amount": "$49.99",
+          "status": "Completed"
+        }
+      ]
+    },
+    "activity": [
+      {
+        "id": 1,
+        "action": "Submitted design mockups",
+        "time": "5 hours ago",
+        "type": "project"
+      }
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "name": "Dashboard Redesign",
+        "description": "UI Design",
+        "progress": 75,
+        "status": "In Progress",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+      }
+    ],
+    "ActivtyHistory": [
+      {
+        "id": 1,
+        "browser": "Safari on Mac",
+        "ip": "192.168.1.100",
+        "time": "09:15 AM",
+        "action": "success",
+        "date": "2023-12-15"
+      }
+    ],
+    "developmentConnections": [
+      {
+        "id": 1,
+        "name": "Figma",
+        "description": "Design Collaboration Tool",
+        "details": "Figma is a collaborative interface design tool...",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+        "status": "connected",
+        "lastSynced": "2023-12-15T09:00:00"
+      }
+    ],
+    "socialConnections": [
+      {
+        "id": 1,
+        "name": "Dribbble",
+        "description": "Show and tell for designers",
+        "details": "Dribbble is a community of designers sharing screenshots...",
+        "icon": "https://cdn.worldvectorlogo.com/logos/dribbble-icon.svg",
+        "status": "connected",
+        "lastActivity": "2023-12-14T16:45:00",
+        "followers": "3.8K",
+        "following": "2.1K",
+        "posts": 156
+      }
+    ]
+  },
+  {
+    "id": "CUST003",
+    "name": "Melanie Hanvey",
+    "surname": "Hanvey",
+    "email": "melanie.hanvey@tech.com",
+    "phone": "+01 (987) 6543 210",
+    "location": "Texas, USA",
+    "company": "Tech Solutions",
+    "role": "Backend Developer",
+    "joinDate": "2023-02-10",
+    "bio": "Melanie is a backend developer specializing in server-side applications and database management with 6 years of experience.",
+    "followers": "12.5K",
+    "following": "8.3K",
+    "engagement": "22.7K",
+    "stats": {
+      "totalProjects": 112,
+      "inProgress": 45,
+      "completed": 67,
+      "overdue": 8
+    },
+    "billing": {
+      "currentPlan": {
+        "name": "Business Plan",
+        "price": "$99.99 / Month",
+        "nextPayment": "01/20/2024",
+        "nextPaymentAmount": "$99.99",
+        "daysRemaining": 20,
+        "billingCycle": "Billed Monthly",
+        "isCurrent": true
+      },
+      "plans": [
+        {
+          "id": "business",
+          "name": "BUSINESS",
+          "description": "For growing businesses",
+          "details": "Perfect for businesses that need advanced features...",
+          "price": "$99.99 / Month",
+          "features": ["20 Users", "500 Projects", "1TB Storage", "24/7 Support"],
+          "popular": true,
+          "isCurrent": true
+        }
+      ],
+      "paymentMethods": [
+        {
+          "id": 1,
+          "cardHolder": "Melanie Hanvey",
+          "cardNumber": "3782 **** **** 9101",
+          "expiry": "11/26",
+          "type": "American Express",
+          "isDefault": true
+        }
+      ],
+      "billingHistory": [
+        {
+          "id": "#456789",
+          "date": "10 DEC, 2023",
+          "amount": "$99.99",
+          "status": "Completed"
+        }
+      ]
+    },
+    "activity": [
+      {
+        "id": 1,
+        "action": "Deployed API updates",
+        "time": "1 day ago",
+        "type": "development"
+      }
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "name": "API Integration",
+        "description": "Backend Development",
+        "progress": 90,
+        "status": "In Progress",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+      }
+    ],
+    "ActivtyHistory": [
+      {
+        "id": 1,
+        "browser": "Firefox on Linux",
+        "ip": "10.0.0.25",
+        "time": "03:45 PM",
+        "action": "success",
+        "date": "2023-12-14"
+      }
+    ],
+    "developmentConnections": [
+      {
+        "id": 1,
+        "name": "GitHub",
+        "description": "Version Control",
+        "details": "GitHub is where developers shape the future of software...",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+        "status": "connected",
+        "lastSynced": "2023-12-15T11:20:00"
+      }
+    ],
+    "socialConnections": [
+      {
+        "id": 1,
+        "name": "LinkedIn",
+        "description": "Professional Network",
+        "details": "Connect with professionals and grow your career...",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+        "status": "connected",
+        "lastActivity": "2023-12-13T10:30:00",
+        "followers": "5.2K",
+        "following": "3.4K",
+        "posts": 89
+      }
+    ]
+  },
+  {
+    "id": "CUST004",
+    "name": "Kenneth Hune",
+    "surname": "Hune",
+    "email": "kenneth.hune@marketing.com",
+    "phone": "+01 (555) 1234 567",
+    "location": "Florida, USA",
+    "company": "Digital Media",
+    "role": "Digital Marketer",
+    "joinDate": "2023-04-05",
+    "bio": "Kenneth is a digital marketing expert with expertise in SEO, social media marketing, and content strategy.",
+    "followers": "35.8K",
+    "following": "42.3K",
+    "engagement": "67.2K",
+    "stats": {
+      "totalProjects": 76,
+      "inProgress": 28,
+      "completed": 48,
+      "overdue": 3
+    },
+    "billing": {
+      "currentPlan": {
+        "name": "Marketing Plan",
+        "price": "$149.99 / Month",
+        "nextPayment": "01/25/2024",
+        "nextPaymentAmount": "$149.99",
+        "daysRemaining": 25,
+        "billingCycle": "Billed Monthly",
+        "isCurrent": true
+      },
+      "plans": [
+        {
+          "id": "marketing",
+          "name": "MARKETING",
+          "description": "For marketing professionals",
+          "details": "Comprehensive tools for digital marketing campaigns...",
+          "price": "$149.99 / Month",
+          "features": ["Analytics", "Automation", "Multi-channel", "A/B Testing"],
+          "popular": true,
+          "isCurrent": true
+        }
+      ],
+      "paymentMethods": [
+        {
+          "id": 1,
+          "cardHolder": "Kenneth Hune",
+          "cardNumber": "6011 **** **** 2222",
+          "expiry": "09/25",
+          "type": "Discover",
+          "isDefault": true
+        }
+      ],
+      "billingHistory": [
+        {
+          "id": "#333444",
+          "date": "05 DEC, 2023",
+          "amount": "$149.99",
+          "status": "Completed"
+        }
+      ]
+    },
+    "activity": [
+      {
+        "id": 1,
+        "action": "Launched marketing campaign",
+        "time": "3 hours ago",
+        "type": "marketing"
+      }
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "name": "SEO Optimization",
+        "description": "Marketing",
+        "progress": 60,
+        "status": "In Progress",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+      }
+    ],
+    "ActivtyHistory": [
+      {
+        "id": 1,
+        "browser": "Chrome on Windows",
+        "ip": "203.0.113.1",
+        "time": "02:30 PM",
+        "action": "success",
+        "date": "2023-12-15"
+      }
+    ],
+    "developmentConnections": [
+      {
+        "id": 1,
+        "name": "Google Analytics",
+        "description": "Web Analytics Service",
+        "details": "Google Analytics lets you measure your advertising ROI...",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+        "status": "connected",
+        "lastSynced": "2023-12-15T08:45:00"
+      }
+    ],
+    "socialConnections": [
+      {
+        "id": 1,
+        "name": "Twitter",
+        "description": "Social Media Platform",
+        "details": "Share your thoughts and connect with others...",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg",
+        "status": "connected",
+        "lastActivity": "2023-12-15T12:00:00",
+        "followers": "12.5K",
+        "following": "8.9K",
+        "posts": 2.3
+      }
+    ]
+  },
+  {
+    "id": "CUST005",
+    "name": "Valentine Maton",
+    "surname": "Maton",
+    "email": "valentine.maton@design.com",
+    "phone": "+01 (444) 3333 222",
+    "location": "Chicago, USA",
+    "company": "Creative Studio",
+    "role": "Graphic Designer",
+    "joinDate": "2023-05-12",
+    "bio": "Valentine is a graphic designer specializing in branding, print design, and visual identity creation.",
+    "followers": "18.7K",
+    "following": "15.4K",
+    "engagement": "31.9K",
+    "stats": {
+      "totalProjects": 94,
+      "inProgress": 36,
+      "completed": 58,
+      "overdue": 6
+    },
+    "billing": {
+      "currentPlan": {
+        "name": "Creative Plan",
+        "price": "$79.99 / Month",
+        "nextPayment": "01/18/2024",
+        "nextPaymentAmount": "$79.99",
+        "daysRemaining": 18,
+        "billingCycle": "Billed Monthly",
+        "isCurrent": true
+      },
+      "plans": [
+        {
+          "id": "creative",
+          "name": "CREATIVE",
+          "description": "For creative professionals",
+          "details": "Tools and resources for designers and creatives...",
+          "price": "$79.99 / Month",
+          "features": ["Adobe Creative Cloud", "Stock Assets", "Font Library", "Templates"],
+          "popular": true,
+          "isCurrent": true
+        }
+      ],
+      "paymentMethods": [
+        {
+          "id": 1,
+          "cardHolder": "Valentine Maton",
+          "cardNumber": "5555 **** **** 8888",
+          "expiry": "07/26",
+          "type": "Mastercard",
+          "isDefault": true
+        }
+      ],
+      "billingHistory": [
+        {
+          "id": "#777888",
+          "date": "12 DEC, 2023",
+          "amount": "$79.99",
+          "status": "Completed"
+        }
+      ]
+    },
+    "activity": [
+      {
+        "id": 1,
+        "action": "Created brand identity",
+        "time": "6 hours ago",
+        "type": "design"
+      }
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "name": "Brand Redesign",
+        "description": "Graphic Design",
+        "progress": 85,
+        "status": "In Progress",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg"
+      }
+    ],
+    "ActivtyHistory": [
+      {
+        "id": 1,
+        "browser": "Chrome on Mac",
+        "ip": "172.16.0.5",
+        "time": "10:20 AM",
+        "action": "success",
+        "date": "2023-12-15"
+      }
+    ],
+    "developmentConnections": [
+      {
+        "id": 1,
+        "name": "Adobe Creative Cloud",
+        "description": "Design Software Suite",
+        "details": "Access to Adobe's creative applications and services...",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Adobe_Creative_Cloud_rainbow_icon.svg",
+        "status": "connected",
+        "lastSynced": "2023-12-14T15:30:00"
+      }
+    ],
+    "socialConnections": [
+      {
+        "id": 1,
+        "name": "Behance",
+        "description": "Creative Portfolio Platform",
+        "details": "Showcase and discover creative work...",
+        "icon": "https://cdn.worldvectorlogo.com/logos/behance-1.svg",
+        "status": "connected",
+        "lastActivity": "2023-12-14T14:15:00",
+        "followers": "4.3K",
+        "following": "2.8K",
+        "posts": 134
+      }
+    ]
+  }
+]
+,
+  "Application": {
+    "notesData": [
+      {
+        "id": 1,
+        "title": "Book a Ticket for Movie",
+        "date": "11 March 2023",
+        "color": "bg-red-500",
+        "tag": "important",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis vitae iure..."
       },
       {
         "id": 2,
-        "name": "Instagram",
-        "description": "Edit & Share photos, Videos & Messages",
-        "details": "Create an account or log in to Instagram - A simple, fun & creative way to capture, edit & share photos, videos & messages with friends & family.",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
-        "status": "connected",
-        "lastActivity": "2023-12-14T11:20:00",
-        "followers": "3.2K",
-        "following": "450",
-        "posts": 189
+        "title": "Go for lunch",
+        "date": "01 April 2023",
+        "color": "bg-green-500",
+        "tag": "work",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis vitae iure..."
       },
       {
         "id": 3,
-        "name": "Twitter",
-        "description": "It's what's happening / Twitter",
-        "details": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg",
-        "status": "connected",
-        "lastActivity": "2023-12-13T09:45:00",
-        "followers": "5.7K",
-        "following": "2.3K",
-        "posts": 1.2
+        "title": "Meeting with Mr. Jojo",
+        "date": "19 October 2023",
+        "color": "bg-blue-500",
+        "tag": "business",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis vitae iure..."
       },
       {
         "id": 4,
-        "name": "Spotify",
-        "description": "Web Player: Music for everyone",
-        "details": "Spotify is a digital music service that gives you access to millions of songs.",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
-        "status": "connected",
-        "lastActivity": "2023-12-15T16:15:00",
-        "followers": "850",
-        "following": "120",
-        "posts": 45
+        "title": "Give Review for design",
+        "date": "02 January 2023",
+        "color": "bg-orange-400",
+        "tag": "work",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis vitae iure..."
+      }
+    ]
+  },
+  "storage": {
+    "cloud": {
+      "total": 100,
+      "free": 53.64,
+      "providers": [
+        {
+          "id": "dropbox",
+          "name": "Dropbox Storage",
+          "used": 5.68,
+          "total": 15,
+          "lastActivity": "3 Hours Ago"
+        },
+        {
+          "id": "google",
+          "name": "Google Drive",
+          "used": 4.75,
+          "total": 10,
+          "lastActivity": "5 Hours Ago"
+        },
+        {
+          "id": "box",
+          "name": "Box Storage",
+          "used": 3.64,
+          "total": 10,
+          "lastActivity": "26 Aug, 2022"
+        }
+      ]
+    },
+    "recentFiles": [
+      {
+        "id": 1,
+        "name": "HTML5 Webpages - V2.3.4",
+        "size": "5.34 MB",
+        "upload": "25 March, 2023",
+        "members": 862,
+        "type": "HTML"
       },
       {
-        "id": 5,
-        "name": "YouTube",
-        "description": "The World Largest Video Sharing Platform",
-        "details": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg",
-        "status": "connected",
-        "lastActivity": "2023-12-12T19:30:00",
-        "followers": "15.2K",
-        "following": "230",
-        "posts": 78
+        "id": 2,
+        "name": "CSS3 Stylesheet - V2.1.4",
+        "size": "2.67 MB",
+        "upload": "20 March, 2023",
+        "members": 862,
+        "type": "CSS"
+      },
+      {
+        "id": 3,
+        "name": "PDF Documentations - V3.2.1",
+        "size": "2.85 MB",
+        "upload": "20 March, 2023",
+        "members": 862,
+        "type": "PDF"
       }
     ]
   }

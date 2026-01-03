@@ -64,7 +64,7 @@ function Navbar() {
         {isExpanded && (
           <div className="leading-tight">
             <h1 className="text-lg font-bold tracking-wide text-blue-900">
-              Delux
+              CRM
             </h1>
             <p className="text-xs text-gray-500">Admin Dashboard</p>
           </div>
@@ -200,6 +200,39 @@ function Navbar() {
     </Link>
     <Link to="/ProjectCreate" className="block hover:text-blue-600">
       Create
+    </Link>
+  </div>
+)}
+
+
+        {/* application */}
+
+<div
+  onClick={() => toggleMenu("application")}
+  className="flex items-center justify-between px-4 py-2 rounded-xl cursor-pointer hover:bg-blue-100"
+>
+  <div className="flex items-center gap-3">
+    <FontAwesomeIcon icon={faFolderOpen} />
+    {isExpanded && <span>Application</span>}
+  </div>
+
+  {isExpanded && (
+    <FontAwesomeIcon
+      icon={faChevronDown}
+      className={`transition-transform ${
+        openMenu === "application" ? "rotate-180" : ""
+      }`}
+    />
+  )}
+</div>
+
+{openMenu === "application" && isExpanded && (
+  <div className="ml-10 space-y-2 text-sm">
+    <Link to="/applicationNotes" className="block hover:text-blue-600">
+      Notes
+    </Link>
+    <Link to="/applicationStorage" className="block hover:text-blue-600">
+      Storage
     </Link>
   </div>
 )}

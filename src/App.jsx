@@ -6,6 +6,8 @@ import Navbar from "./Utility/Navbar";
 import { useSelector, useDispatch } from "react-redux";
 import { setUser } from "./Features/authSlice";
 import DashboardHome from "./DashboardHome";
+import Login from "./Login";
+
 
 function App() {
   const isSidebarExpanded = useSelector((state) => state.ui.isSidebarExpanded);
@@ -25,6 +27,9 @@ function App() {
     }
   }, [dispatch]);
  
+  if (showLoginPage) {
+    return <Login />;
+  }
 
   return (
     <div
