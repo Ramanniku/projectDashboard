@@ -37,6 +37,7 @@ useEffect(() => {
   const logout = () => {
     localStorage.removeItem("user");
     window.location.reload();
+    window.location.href = "/";
   };
 
   return (
