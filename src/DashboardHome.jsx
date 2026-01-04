@@ -89,10 +89,6 @@
 
         {/* ===== CHART + ACTIVITY ===== */}
         <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
-            {/* Chart */}
-            {/* <div className="xl:col-span-2">
-            <ChartCard />
-            </div> */}
             {/* Payment Chart */}
             <div className="xl:col-span-2">
             <PaymentChart data={paymentStats}/>

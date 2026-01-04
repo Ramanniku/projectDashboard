@@ -10,7 +10,9 @@ import {
   faUsers,
   faFolderOpen,
   faBullseye,
-  faAddressCard
+  faAddressCard,
+  faFileAlt, // New icon for Application
+  faCog // Another alternative icon
 } from "@fortawesome/free-solid-svg-icons";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleSidebar } from "../Features/uiSlice";
@@ -94,8 +96,9 @@ function Navbar() {
           {isExpanded && (
             <FontAwesomeIcon
               icon={faChevronDown}
-              className={`transition-transform ${openMenu === "report" ? "rotate-180" : ""
-                }`}
+              className={`transition-transform ${
+                openMenu === "report" ? "rotate-180" : ""
+              }`}
             />
           )}
         </div>
@@ -123,12 +126,12 @@ function Navbar() {
           {isExpanded && (
             <FontAwesomeIcon
               icon={faChevronDown}
-              className={`transition-transform ${openMenu === "customer" ? "rotate-180" : ""
-                }`}
+              className={`transition-transform ${
+                openMenu === "customer" ? "rotate-180" : ""
+              }`}
             />
           )}
         </div>
-
 
         {openMenu === "customer" && isExpanded && (
           <div className="ml-10 space-y-2 text-sm">
@@ -154,8 +157,9 @@ function Navbar() {
           {isExpanded && (
             <FontAwesomeIcon
               icon={faChevronDown}
-              className={`transition-transform ${openMenu === "leads" ? "rotate-180" : ""
-                }`}
+              className={`transition-transform ${
+                openMenu === "leads" ? "rotate-180" : ""
+              }`}
             />
           )}
         </div>
@@ -171,72 +175,67 @@ function Navbar() {
           </div>
         )}
 
-
         {/* PROJECTS */}
-{/* PROJECTS */}
-<div
-  onClick={() => toggleMenu("projects")}
-  className="flex items-center justify-between px-4 py-2 rounded-xl cursor-pointer hover:bg-blue-100"
->
-  <div className="flex items-center gap-3">
-    <FontAwesomeIcon icon={faFolderOpen} />
-    {isExpanded && <span>Projects</span>}
-  </div>
+        <div
+          onClick={() => toggleMenu("projects")}
+          className="flex items-center justify-between px-4 py-2 rounded-xl cursor-pointer hover:bg-blue-100"
+        >
+          <div className="flex items-center gap-3">
+            <FontAwesomeIcon icon={faFolderOpen} />
+            {isExpanded && <span>Projects</span>}
+          </div>
 
-  {isExpanded && (
-    <FontAwesomeIcon
-      icon={faChevronDown}
-      className={`transition-transform ${
-        openMenu === "projects" ? "rotate-180" : ""
-      }`}
-    />
-  )}
-</div>
+          {isExpanded && (
+            <FontAwesomeIcon
+              icon={faChevronDown}
+              className={`transition-transform ${
+                openMenu === "projects" ? "rotate-180" : ""
+              }`}
+            />
+          )}
+        </div>
 
-{openMenu === "projects" && isExpanded && (
-  <div className="ml-10 space-y-2 text-sm">
-    <Link to="/ProjectView" className="block hover:text-blue-600">
-      View
-    </Link>
-    <Link to="/ProjectCreate" className="block hover:text-blue-600">
-      Create
-    </Link>
-  </div>
-)}
+        {openMenu === "projects" && isExpanded && (
+          <div className="ml-10 space-y-2 text-sm">
+            <Link to="/ProjectView" className="block hover:text-blue-600">
+              View
+            </Link>
+            <Link to="/ProjectCreate" className="block hover:text-blue-600">
+              Create
+            </Link>
+          </div>
+        )}
 
+        {/* APPLICATION - Now with separate icon */}
+        <div
+          onClick={() => toggleMenu("application")}
+          className="flex items-center justify-between px-4 py-2 rounded-xl cursor-pointer hover:bg-blue-100"
+        >
+          <div className="flex items-center gap-3">
+            <FontAwesomeIcon icon={faFileAlt} /> {/* Changed icon */}
+            {isExpanded && <span>Application</span>}
+          </div>
 
-        {/* application */}
+          {isExpanded && (
+            <FontAwesomeIcon
+              icon={faChevronDown}
+              className={`transition-transform ${
+                openMenu === "application" ? "rotate-180" : ""
+              }`}
+            />
+          )}
+        </div>
 
-<div
-  onClick={() => toggleMenu("application")}
-  className="flex items-center justify-between px-4 py-2 rounded-xl cursor-pointer hover:bg-blue-100"
->
-  <div className="flex items-center gap-3">
-    <FontAwesomeIcon icon={faFolderOpen} />
-    {isExpanded && <span>Application</span>}
-  </div>
-
-  {isExpanded && (
-    <FontAwesomeIcon
-      icon={faChevronDown}
-      className={`transition-transform ${
-        openMenu === "application" ? "rotate-180" : ""
-      }`}
-    />
-  )}
-</div>
-
-{openMenu === "application" && isExpanded && (
-  <div className="ml-10 space-y-2 text-sm">
-    <Link to="/applicationNotes" className="block hover:text-blue-600">
-      Notes
-    </Link>
-    <Link to="/applicationStorage" className="block hover:text-blue-600">
-      Storage
-    </Link>
-  </div>
-)}
-
+        {openMenu === "application" && isExpanded && (
+          <div className="ml-10 space-y-2 text-sm">
+            <Link to="/applicationNotes" className="block hover:text-blue-600">
+              Notes
+            </Link>
+            <Link to="/applicationStorage" className="block hover:text-blue-600">
+              Storage
+            </Link>
+          </div>
+        )}
 
         {/* SETTINGS */}
         <SidebarItem

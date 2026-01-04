@@ -345,7 +345,7 @@ function CustomerView() {
               
               {/* Customer Selector */}
               <div className="flex items-center justify-between bg-white p-4 rounded-lg shadow">
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-10">
                   <div className="relative">
                     <button
                       onClick={() => setShowCustomersTable(!showCustomersTable)}
@@ -417,7 +417,7 @@ function CustomerView() {
             </div>
 
             {/* Customers Table (conditionally shown) */}
-            {showCustomersTable && (
+            {/* {showCustomersTable && (
               <div className="bg-white rounded-lg shadow p-6">
                 <div className="flex items-center justify-between mb-6">
                   <h3 className="text-lg font-semibold text-gray-900">All Customers</h3>
@@ -430,7 +430,7 @@ function CustomerView() {
                   checkSelect={false}
                 />
               </div>
-            )}
+            )} */}
 
             {/* Main Content Grid */}
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">

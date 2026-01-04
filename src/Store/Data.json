@@ -1372,5 +1372,228 @@
       }
     ]
   }
+  ,
+  "projects": [
+    {
+      "id": 1,
+      "name": "Duralux || CRM Applications & Admin Dashboard",
+      "description": "CRM (Customer Relationship Management) applications are software tools that help organizations manage interactions with their customers...",
+      "customer": "Green Cute",
+      "status": "In Progress",
+      "startDate": "2023-02-25",
+      "endDate": "2023-03-20",
+      "hourlyRate": "$25.00",
+      "loggedHours": "00:00:00",
+      "billingType": "Project Hours",
+      "progress": 78,
+      "tasksCompleted": 16,
+      "totalTasks": 25,
+      "projectCode": "#01 - CRM Applications - G.Cute",
+      "stats": {
+        "loggedHours": "00:00",
+        "billableHours": "00:00",
+        "billedHours": "00:00",
+        "unbilledHours": "00:00"
+      }
+    },
+    {
+      "id": 2,
+      "name": "E-Commerce Website Development",
+      "description": "Building a modern e-commerce platform with payment integration and inventory management",
+      "customer": "Fashion Hub Inc.",
+      "status": "Completed",
+      "startDate": "2023-01-10",
+      "endDate": "2023-03-15",
+      "hourlyRate": "$35.00",
+      "loggedHours": "245:30:00",
+      "billingType": "Fixed Price",
+      "progress": 100,
+      "tasksCompleted": 45,
+      "totalTasks": 45,
+      "projectCode": "#02 - E-Commerce - FHI",
+      "stats": {
+        "loggedHours": "245:30",
+        "billableHours": "220:15",
+        "billedHours": "220:15",
+        "unbilledHours": "25:15"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Mobile Banking App UI/UX Design",
+      "description": "Designing user interface and experience for a new mobile banking application",
+      "customer": "Global Bank",
+      "status": "In Progress",
+      "startDate": "2023-03-01",
+      "endDate": "2023-04-30",
+      "hourlyRate": "$40.00",
+      "loggedHours": "120:45:00",
+      "billingType": "Project Hours",
+      "progress": 65,
+      "tasksCompleted": 26,
+      "totalTasks": 40,
+      "projectCode": "#03 - Banking App - GB",
+      "stats": {
+        "loggedHours": "120:45",
+        "billableHours": "110:30",
+        "billedHours": "85:00",
+        "unbilledHours": "25:30"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Inventory Management System",
+      "description": "Developing a comprehensive inventory tracking and management system",
+      "customer": "Retail Solutions",
+      "status": "On Hold",
+      "startDate": "2023-02-15",
+      "endDate": "2023-05-30",
+      "hourlyRate": "$30.00",
+      "loggedHours": "95:20:00",
+      "billingType": "Project Hours",
+      "progress": 45,
+      "tasksCompleted": 18,
+      "totalTasks": 40,
+      "projectCode": "#04 - Inventory - RS",
+      "stats": {
+        "loggedHours": "95:20",
+        "billableHours": "85:10",
+        "billedHours": "60:00",
+        "unbilledHours": "25:10"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Social Media Analytics Dashboard",
+      "description": "Creating analytics dashboard for social media performance tracking",
+      "customer": "Marketing Pro",
+      "status": "In Progress",
+      "startDate": "2023-03-10",
+      "endDate": "2023-05-25",
+      "hourlyRate": "$45.00",
+      "loggedHours": "150:15:00",
+      "billingType": "Hourly",
+      "progress": 70,
+      "tasksCompleted": 28,
+      "totalTasks": 40,
+      "projectCode": "#05 - Analytics - MP",
+      "stats": {
+        "loggedHours": "150:15",
+        "billableHours": "140:30",
+        "billedHours": "120:00",
+        "unbilledHours": "20:30"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Hospital Management Software",
+      "description": "Enterprise software for hospital administration and patient management",
+      "customer": "MediCare Systems",
+      "status": "Completed",
+      "startDate": "2022-12-01",
+      "endDate": "2023-02-28",
+      "hourlyRate": "$50.00",
+      "loggedHours": "300:45:00",
+      "billingType": "Fixed Price",
+      "progress": 100,
+      "tasksCompleted": 50,
+      "totalTasks": 50,
+      "projectCode": "#06 - Hospital - MCS",
+      "stats": {
+        "loggedHours": "300:45",
+        "billableHours": "280:20",
+        "billedHours": "280:20",
+        "unbilledHours": "20:25"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Real Estate Website Development",
+      "description": "Property listing website with virtual tour and mortgage calculator",
+      "customer": "Prime Properties",
+      "status": "Upcoming",
+      "startDate": "2023-04-01",
+      "endDate": "2023-06-30",
+      "hourlyRate": "$38.00",
+      "loggedHours": "00:00:00",
+      "billingType": "Project Hours",
+      "progress": 0,
+      "tasksCompleted": 0,
+      "totalTasks": 35,
+      "projectCode": "#07 - Real Estate - PP",
+      "stats": {
+        "loggedHours": "00:00",
+        "billableHours": "00:00",
+        "billedHours": "00:00",
+        "unbilledHours": "00:00"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Learning Management System",
+      "description": "Online platform for course delivery, quizzes and student tracking",
+      "customer": "EduTech Solutions",
+      "status": "In Progress",
+      "startDate": "2023-02-20",
+      "endDate": "2023-05-15",
+      "hourlyRate": "$42.00",
+      "loggedHours": "200:30:00",
+      "billingType": "Project Hours",
+      "progress": 80,
+      "tasksCompleted": 32,
+      "totalTasks": 40,
+      "projectCode": "#08 - LMS - ETS",
+      "stats": {
+        "loggedHours": "200:30",
+        "billableHours": "190:15",
+        "billedHours": "160:00",
+        "unbilledHours": "30:15"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Restaurant POS System",
+      "description": "Point of Sale system with inventory and order management",
+      "customer": "Food Chain Inc.",
+      "status": "Completed",
+      "startDate": "2023-01-05",
+      "endDate": "2023-02-28",
+      "hourlyRate": "$32.00",
+      "loggedHours": "180:45:00",
+      "billingType": "Fixed Price",
+      "progress": 100,
+      "tasksCompleted": 30,
+      "totalTasks": 30,
+      "projectCode": "#09 - POS - FCI",
+      "stats": {
+        "loggedHours": "180:45",
+        "billableHours": "170:20",
+        "billedHours": "170:20",
+        "unbilledHours": "10:25"
+      }
+    },
+    {
+      "id": 10,
+      "name": "IoT Smart Home App",
+      "description": "Mobile application to control smart home devices and sensors",
+      "customer": "TechHome Innovations",
+      "status": "In Progress",
+      "startDate": "2023-03-05",
+      "endDate": "2023-06-10",
+      "hourlyRate": "$48.00",
+      "loggedHours": "135:20:00",
+      "billingType": "Hourly",
+      "progress": 55,
+      "tasksCompleted": 22,
+      "totalTasks": 40,
+      "projectCode": "#10 - IoT - THI",
+      "stats": {
+        "loggedHours": "135:20",
+        "billableHours": "125:45",
+        "billedHours": "100:00",
+        "unbilledHours": "25:45"
+      }
+    }
+  ]
   
 }

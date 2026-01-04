@@ -12,22 +12,7 @@ import {
     const isSidebarExpanded = useSelector((state) => state.ui.isSidebarExpanded);
   
     const [activeTab, setActiveTab] = useState("general");
-  
-    const menu = [
-      "general",
-      "seo",
-      "tags",
-      "email",
-      "tasks",
-      "leads",
-      "support",
-      "finance",
-      "gateways",
-      "customers",
-      "localization",
-      "recaptcha",
-      "miscellaneous",
-    ];
+
   
     return (
       <div className="flex min-h-screen bg-gray-50">
@@ -42,22 +27,9 @@ import {
           >
             <div className="grid grid-cols-12 gap-6">
               {/* Left Menu */}
-              <div className="col-span-12 md:col-span-3 bg-white rounded-xl border border-gray-200">
-                {menu.map((item) => (
-                  <button
-                    key={item}
-                    onClick={() => setActiveTab(item)}
-                    className={`w-full text-left px-4 py-3 capitalize border-b border-gray-100 last:border-b-0 hover:bg-gray-50 ${
-                      activeTab === item ? "bg-gray-100 font-semibold" : ""
-                    }`}
-                  >
-                    {item}
-                  </button>
-                ))}
-              </div>
   
               {/* Right Content */}
-              <div className="col-span-12 md:col-span-9 bg-white rounded-xl border border-gray-200 p-6 space-y-6">
+              <div className="col-span-12 md:col-span-12 bg-white rounded-xl border border-gray-200 p-6 space-y-6">
                 {/* Header */}
                 <div className="flex justify-between items-center">
                   <h2 className="text-lg font-semibold capitalize">{activeTab}</h2>
