@@ -8,6 +8,7 @@ import {
   faDollarSign,
   faWaveSquare,
 } from "@fortawesome/free-solid-svg-icons";
+import logo from "../assets/logo.png"
 
 function AccountMenu({ user, onLogout }) {
   return (
@@ -15,7 +16,7 @@ function AccountMenu({ user, onLogout }) {
       {/* User Info */}
       <div className="flex items-center gap-3 p-4 border-b">
         <img
-          src={user?.avatar || "https://i.pravatar.cc/100"}
+          src={logo}
           alt="avatar"
           className="w-12 h-12 rounded-full"
         />
